@@ -1,0 +1,23 @@
+PADRONIZAÇÕES
+FONTE: JejuMyeongjo
+MODELO DE SITE: plataforma de cursos com inspiração na praticidade da plataforma Udemy, porém de maneira mais simplificada, sem informações desnecessárias.
+
+COR BACKGROUND: #00e6ac (HEADER & FOOTER)
+
+<header>: dimensão:1440x125 ; barra de pesquisa ; cadastro ; login ; logo da companhia
+
+<nav>: não definido
+<main>: não definido
+  <aside>
+  <section>
+  <article>
+<footer>: dimensão:1440x100 ; atendimento/SAC ; Política de Privacidade ; Quem somos ; Redes Sociais
+
+ATRIBUIÇÕES
+	1.0 home(precisa ter frase impactante)
+  	  1.1 tela login
+	  1.2 cadastro
+  	2.0 página de busca  	
+  	3.0 perfil
+	4.0 páginas de reprodução
+	5.0 configurações
