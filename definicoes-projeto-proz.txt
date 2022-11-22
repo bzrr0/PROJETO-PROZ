@@ -14,10 +14,10 @@ COR BACKGROUND: #00e6ac (HEADER & FOOTER)
 <footer>: dimensão:1440x100 ; atendimento/SAC ; Política de Privacidade ; Quem somos ; Redes Sociais
 
 ATRIBUIÇÕES
-	1.0 home(precisa ter frase impactante)
-  	  1.1 tela login
-	  1.2 cadastro
-  	2.0 página de busca  	
-  	3.0 perfil
-	4.0 páginas de reprodução
-	5.0 configurações
+1.0 home(precisa ter frase impactante)
+	1.1 tela login
+	1.2 cadastro
+2.0 página de busca  	
+3.0 perfil
+4.0 páginas de reprodução
+5.0 configurações
