@@ -4,83 +4,130 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles-header-footer.css" />
+    <link rel="stylesheet" href="./css/styles-seetings.css" />
     <title>Configurações</title>
   </head>
   <body>
     <header>
-      <div>
-        <a href="./home.html"
-          ><img src="./img/icone-projeto.png" alt="icone Codemy"
-        /></a>
-        <span>Codemy</span>
+      <div class="container__header">
+        <div class="header__logo_search">
+          <div class="header__logo">
+            <div class="header__img">
+              <a href="./home.html"
+                ><img src="./img/icone-projeto-nobg3.png" alt="icone Codemy"
+              /></a>
+              <div class="name">
+                <span>Codemy</span>
+              </div>
+            </div>
+          </div>
+          <div class="header__search">
+            <input type="text" placeholder="Faça sua pesquisa.." />
+          </div>
+          <div class="header__nav-bar">
+            <nav>
+              <ul class="header__nav-list">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="./profile.html">Perfil</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-      <div>
-        <input type="text" placeholder="Faça sua pesquisa.." />
-      </div>
-      <nav>
-        <button>Login</button>
-        <button>Cadastro</button>
-        <a href="./profile.html"><button>Perfil</button></a>
-      </nav>
     </header>
     <main>
-      <h1>Configurações</h1>
-      <section>
-        <ul>
-          <li><a href="./home.html">Home</a></li>
-          <li><a href="./profile.html">Perfil</a></li>
-          <li><a href="#">Amigos</a></li>
-          <li><a href="#">Redes Sociais</a></li>
-          <li><a href="#">Meus Cursos</a></li>
-          <li><a href="#">Sua Evolução</a></li>
-          <li><a href="#">Sair</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Configurações Básicas</h2>
-        <div>
-          <label for="name">Nome completo</label>
-          <input type="text" name="" id="name" />
+      <div class="container">
+        <div class="settings__name">
+          <h1>Configurações</h1>
         </div>
-        <div>
-          <label for="password">Senha</label>
-          <input type="password" name="" id="password" />
-          <a href="#">Alterar senha</a>
+        <div class="settings_section">
+          <div class="settigs__sidebar">
+            <section>
+              <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./profile.html">Perfil</a></li>
+                <li><a href="#">Amigos</a></li>
+                <li><a href="#">Redes Sociais</a></li>
+                <li><a href="#">Meus Cursos</a></li>
+                <li><a href="#">Sua Evolução</a></li>
+                <li><a href="#">Sair</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="settigs__main-bar">
+            <section>
+              <form action="">
+                <div class="main-bar__name">
+                  <h2>Configurações Básicas</h2>
+                </div>
+                <div class="main-bar__form">
+                  <label for="name">Nome completo</label>
+                  <input type="text" name="" id="name" />
+                </div>
+                <div class="main-bar__form">
+                  <label for="password">Senha</label>
+                  <input type="password" name="" id="password" />
+                  <a href="#">Alterar senha</a>
+                </div>
+                <div class="main-bar__form">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="" id="email" />
+                  <a href="#">Alterar e-mail</a>
+                </div>
+                <div class="main-bar__name">
+                  <h2>Configurações do Sistema</h2>
+                </div>
+                <div class="main-bar__form">
+                  <label for="language">Linguagem</label>
+                  <select id="language" name="">
+                    <option value="es">Espanhol</option>
+                    <option value="en">Inglês</option>
+                    <option selected value="pt-br">Português - Brasil</option>
+                    <option value="pt-po">Português - Portugal</option>
+                  </select>
+                </div>
+                <div class="main-bar__form-checkbox">
+                  <p>Notificações por E-mail</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider"></span>
+                  </label>
+                </div>
+                <div class="main-bar__form-checkbox">
+                  <p>Modo Daltônico</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider"></span>
+                  </label>
+                </div>
+              </form>
+            </section>
+          </div>
         </div>
-        <div>
-          <label for="email">E-mail</label>
-          <input type="email" name="" id="email" />
-          <a href="#">Alterar e-mail</a>
-        </div>
-      </section>
-      <section>
-        <h2>Configurações do Sistema</h2>
-        <label for="language">Linguagem</label>
-        <select id="language" name="">
-          <option value="es">Espanhol</option>
-          <option value="en">Inglês</option>
-          <option selected value="pt-br">Português - Brasil</option>
-          <option value="pt-po">Português - Portugal</option>
-        </select>
-        <div>
-          <label for="notifications">Notificação por E-mail</label>
-          <input type="range" name="" id="notifications" />
-        </div>
-        <div>
-          <label for="daltonicmode">Modo Daltônico</label>
-          <input type="range" name="" id="daltonicmode" />
-        </div>
-      </section>
+      </div>
     </main>
     <footer>
-      <span>© 2022 Codemy, Inc.</span>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Suporte</a></li>
-        <li><a href="#">Termos de Uso</a></li>
-        <li><a href="#">Política de Privacidade</a></li>
-      </ul>
+      <div class="header__nav-bar">
+        <span>© 2022 Codemy, Inc.</span>
+        <nav>
+          <ul class="footer__nav-list">
+            <li><a href="#" target="_blank">About</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+            <li><a href="#" target="_blank">Suporte</a></li>
+            <li>
+              <a href="./termos-de-uso.html" target="_blank">Termos de Uso</a>
+            </li>
+            <li>
+              <a href="./politica-de-privacidade.html" target="_blank"
+                >Política de Privacidade</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
