@@ -133,18 +133,50 @@ header .navegation li a{
     list-style: none;
 }
 .icons li a{
+    text-align:justify;
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 250px;
+    height: 170px;
+    border-radius: 15%;
     background: #00E6AC;
-    margin-left: 45px;
+    margin-left: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: #00E6AC;
+    justify-content: center;
 }
 .icons li a:hover{
     background: #ffffff;
     transform: translateY(-10px);
+}
+#f{
+    width: 40%;
+}
+#b{
+    width: 40%;
+}
+#ml{
+    width: 35%;
+}
+#cc{
+    width: 35%;
+}
+input {
+    width: 30rem;
+    height: 2rem;
+    border-radius: 5%;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5%;
+    background: #00E6AC;
+    transition: 0.1s ease-in-out;
+}
+button:hover{
+    background: white;
+    transform: translateY(-2px);
 }
