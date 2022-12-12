@@ -13,10 +13,39 @@ COR BACKGROUND: 00E6AC (HEADER & FOOTER)
   <article>
 <footer>: dimensão:1440x100 ; atendimento/SAC ; Política de Privacidade ; Quem somos ; Redes Sociais
 
-ATRIBUIÇÕES
-1.0 home(precisa ter frase impactante)
-	1.1 tela login
-	1.2 cadastro
+DINÂMICA DO SITE
+
+HOME(precisa ter frase impactante)
+	Header
+	- Logo(retorna HOME)
+	- Barra de pesquisa: retornar tela de resultados(a ser criado)
+	- Login: retorna tela de Login(feito)
+		- Input E-mail
+		- Input Senha
+		- Esqueceu sua senha?
+		- Entrar
+	- Cadastro: retorna tela para criar perfil(feito)
+		- Input Idade
+		- Input Nome
+		- Input E-mail
+		- Input Senha
+		- Criar Conta
+		- Cadastro por Gmail
+		- Cadastro por Facebook
+	- Perfil: retorna tela para ver perfil de usuário(em andamento)
+			
+
+	Body
+	- O que gostaria de aprender(em andamento)
+	
+	Footer
+	- About(a ser criado)
+	- Contact(a ser criado)
+	- Suporte(a ser criado)
+	- Termos de Uso(feito)
+	- Política de Privacidade(feito)
+
+1.0 home
 	URL: https://www.figma.com/file/1NevMZObkdohz3GljebT3k/parte2-string1-proz?node-id=0%3A1&t=G71ELd8F7wUgE9f2-1
 2.0 página de busca  	
 3.0 perfil
