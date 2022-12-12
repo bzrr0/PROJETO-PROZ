@@ -5,26 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles-cadastro.css">
+    <link rel="stylesheet" href="./css/styles-header-footer.css">
     <title>Login</title>
 </head>
 <body>
-    <div class="opcoes">
-        <h1>Crie seu perfil</h1>
-        <input type="number" placeholder="Idade">
-        <br><br>
-        <input type="text" placeholder="Nome completo">
-        <br><br>
-        <input type="text" placeholder="E-mail">
-        <br><br>
-        <input type="password" placeholder="Senha">
-        <br><br>
-        <button>CRIAR CONTA</button>
-        <br>
-        <p>ou</p>
-        <br>
-        <button id="google-icon"><img src="./img/icone-google-cadastro.png" alt=""><span> CADASTRE-SE</span></button>
-        <br><br>
-        <button id="facebook-icon"><img src="./img/icone-facebook-cadastro.png" alt=""><span> CADASTRE-SE</span></button>
-    </div>
+    <header>
+        <div class="container__header">
+          <div class="header__logo_search">
+            <div class="header__logo">
+              <div class="header__img">
+                <a href="./home.html"
+                  ><img src="./img/icone-projeto-nobg3.png" alt="icone Codemy"
+                /></a>
+                <div class="name">
+                  <span>Codemy</span>
+                </div>
+              </div>
+            </div>
+            <div class="header__search">
+              <input type="text" placeholder="Faça sua pesquisa.." />
+            </div>
+            <div class="header__nav-bar">
+              <nav>
+                <ul class="header__nav-list">
+                  <li><a href="./login.html">Login</a></li>
+                  <li><a href="./cadastro.html">Cadastro</a></li>
+                  <li><a href="./profile.html">Perfil</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="opcoes">
+            <h1>Crie seu perfil</h1>
+            <input type="number" placeholder="Idade">
+            <br><br>
+            <input type="text" placeholder="Nome completo">
+            <br><br>
+            <input type="text" placeholder="E-mail">
+            <br><br>
+            <input type="password" placeholder="Senha">
+            <br><br>
+            <button>CRIAR CONTA</button>
+            <br>
+            <p>ou</p>
+            <br>
+            <button id="google-icon"><img src="./img/icone-google-cadastro.png" alt=""><span> CADASTRE-SE</span></button>
+            <br><br>
+            <button id="facebook-icon"><img src="./img/icone-facebook-cadastro.png" alt=""><span> CADASTRE-SE</span></button>
+        </div>
+      </main>    
 </body>
 </html>
