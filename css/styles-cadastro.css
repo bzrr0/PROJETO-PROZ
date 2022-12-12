@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #00E6AC, white);
+}
+.opcoes{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #000000;
+}
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 30rem;
+    height: 2rem;
+}
+button{
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+    transition: 0.1s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 15px;
+}
+button:hover{
+    background: #00E6AC;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+#google-icon:hover{
+    background: rgb(199, 199, 199);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+#facebook-icon:hover{
+    background: #3b5998;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+p{
+   align-items: center; 
+   text-align: center;
+}
