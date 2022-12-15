@@ -72,11 +72,15 @@ p/ dia 21
 - Adicionar Botão "pesquisar"
 - Confirmar links: login e cadastro
 - Confirmar responsividade
+- Colocar titulos About e Contact em pt-br
+- Criar About genérico
+- Criar Contact Genérico
 
 2.PERFIL/CONFIGURAÇÕES
 - Estilizar body
 - Criar botão "Editar perfil"
 - Confirmar responsividade
+- Criar menus genéricos: Redes Sociais, Sua Evolução, Amigos
 
 3.PÁGINA DE BUSCA
 - Criar
@@ -87,6 +91,9 @@ p/ dia 21
 - Criar
 - Estilizar
 - Confirmar responsividade
+
+5.OUTRAS(Login, Cadastro, Recuperar senha)
+- Atualizar 
 
 PADRONIZAÇÕES:
 - estilização de header-footer;
