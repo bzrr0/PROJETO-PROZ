@@ -10,14 +10,19 @@ header{
     height: 9rem;
 }
 
-.header__logo_search{
+.container__header{
     display: flex;
 }
 
 .header__search{
     align-self: center;
     width: 100%;
-    margin-left: 7rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__search input{
+    border-radius: .4rem;
 }
 
 .header__nav-bar{
@@ -25,7 +30,21 @@ header{
     align-self: flex-end;
     display: flex;
     justify-content: flex-end;
-    margin-right: 2rem;
+    margin-right: 2.5rem;
+}
+
+.header__nav-bar li{
+    width: 6rem;
+    height: auto;
+}
+
+.header__nav-bar a{
+    color: white;
+    width: 4rem;
+    height: auto;
+    background-color: #0072ED;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
 }
 
 .header__search > input{
@@ -57,6 +76,7 @@ header{
 .header__nav-list{
     display: flex;
     list-style: none;
+    margin-bottom: 1rem;
 }
 
 .header__nav-list a{

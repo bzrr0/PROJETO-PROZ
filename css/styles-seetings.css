@@ -7,7 +7,7 @@ form {
   width: 60rem;
 }
 
-.settings__name{
+.settings__name {
   display: flex;
   justify-content: center;
   width: 100rem;
@@ -24,7 +24,7 @@ form {
   margin-left: 15rem;
 }
 
-.settigs__main-bar{
+.settigs__main-bar {
   margin-left: 10rem;
 }
 
@@ -64,6 +64,7 @@ form {
   display: inline-block;
   font-size: 1.2rem;
   margin-right: 5rem;
+  margin-bottom: 3rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -72,10 +73,9 @@ form {
   width: 65px;
 }
 
-.main-bar__form-checkbox p{
+.main-bar__form-checkbox p {
   display: inline-block;
 }
-
 
 .main-bar__form input,
 select {
@@ -141,4 +141,18 @@ select {
 .switch input[type="checkbox"]:focus + .slider {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   border-color: #80bdff;
+}
+
+.main-bar__button{
+  display: flex;
+  justify-content: center;
+}
+
+.main-bar__button button {
+  background-color: green;
+  color: white;
+  width: 6rem;
+  padding: .7rem;
+  border-radius: .3rem;
+  cursor: pointer;
 }
