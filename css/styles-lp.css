@@ -10,7 +10,7 @@ section{
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    background: #00E6AC;
+    background: #D7FFED;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +33,7 @@ section{
     width: 64px;
     height: 40px;
     border-radius: 25%;
-    background: #00E6AC;
+    background: #D7FFED;
     margin-left: 45px;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ section{
     transition: 0.3s ease-in-out;
 }
 .nav li a:hover{
-    background: #00E6AC;
+    background: #D7FFED;
     transform: translateY(-5px);
 }
 header{
@@ -66,7 +66,7 @@ header .logo{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #00E6AC;
+    background: #D7FFED;
     margin-left: 45px;
     display: flex;
     align-items: center;
@@ -138,14 +138,14 @@ header .navegation li a{
     width: 250px;
     height: 170px;
     border-radius: 15%;
-    background: #00E6AC;
+    background: #D7FFED;
     margin-left: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.3s ease-in-out;
     text-decoration: none;
-    color: #00E6AC;
+    color: #D7FFED;
     justify-content: center;
 }
 .icons li a:hover{
@@ -165,7 +165,7 @@ header .navegation li a{
     width: 35%;
 }
 input {
-    width: 30rem;
+    width: 25rem;
     height: 2rem;
     border-radius: 15px;
 }
@@ -173,7 +173,7 @@ button{
     width: 5rem;
     height: 2rem;
     border-radius: 15px;
-    background: #00E6AC;
+    background: #D7FFED;
     transition: 0.1s ease-in-out;
 }
 button:hover{

@@ -40,13 +40,13 @@
       <main>
         <div class="opcoes">
             <h1>Crie seu perfil</h1>
-            <input type="number" placeholder="Idade">
+            <input type="number" placeholder="Idade" min="0" max="110">
             <br><br>
             <input type="text" placeholder="Nome completo">
             <br><br>
             <input type="text" placeholder="E-mail">
             <br><br>
-            <input type="password" placeholder="Senha">
+            <input type="password" placeholder="Senha" required pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?!.[@$!%?&])[A-Za-z\d@$!%?&]{6,8}$" title="Ronaldo">
             <br><br>
             <button>CRIAR CONTA</button>
             <br>
