@@ -1,3 +1,4 @@
+SPRINT 1
 PADRONIZAÇÕES
 FONTE: JejuMyeongjo ou Inter
 MODELO DE SITE: plataforma de cursos com inspiração na praticidade da plataforma Udemy, porém de maneira mais simplificada, sem informações desnecessárias.
@@ -56,3 +57,47 @@ URL: https://www.figma.com/file/ZW806aIktVzIhd5VIe6PmO/Untitled?node-id=0%3A1&t=
 
 5.0 configurações
 URL: https://www.figma.com/file/TeQFbr8DjUiNetE76MMChD/Part-3---Projeto-Proz?node-id=0%3A1&t=r0u6xAf22TVnNZ42-1
+
+SPRINT 2
+- Fizemos a estilização básica do site com o básico de html e CSS.
+- Inclusão de Landing Page.
+- Confirmando padronizações.
+
+SPRINT 3(em andamento)
+
+p/ dia 21
+1.HOME
+- Melhorar body
+- Estilizar
+- Adicionar Botão "pesquisar"
+- Confirmar links: login e cadastro
+- Confirmar responsividade
+
+2.PERFIL/CONFIGURAÇÕES
+- Estilizar body
+- Criar botão "Editar perfil"
+- Confirmar responsividade
+
+3.PÁGINA DE BUSCA
+- Criar
+- Estilizar
+- Confirmar responsividade
+
+4.PÁGINA DE REPRODUÇÃO
+- Criar
+- Estilizar
+- Confirmar responsividade
+
+PADRONIZAÇÕES:
+- estilização de header-footer;
+- responsividade;
+- cor(alterada): #D7FFED;
+
+
+
+
+
+
+
+
+

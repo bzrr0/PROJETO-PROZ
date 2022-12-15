@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 section{
     position: relative;
@@ -172,6 +172,7 @@ input {
 button{
     width: 5rem;
     height: 2rem;
+    margin: 0rem;
     border-radius: 15px;
     background: #D7FFED;
     transition: 0.1s ease-in-out;

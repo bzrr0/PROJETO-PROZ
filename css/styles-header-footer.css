@@ -40,11 +40,12 @@ header{
 
 .header__nav-bar a{
     color: white;
-    width: 4rem;
+    width: 4.5rem;
     height: auto;
     background-color: #0072ED;
     padding: 0.6rem;
     border-radius: 0.3rem;
+    text-align: center;
 }
 
 .header__search > input{
@@ -77,6 +78,10 @@ header{
     display: flex;
     list-style: none;
     margin-bottom: 1rem;
+}
+.header__nav-list li{
+    display: flex;
+    justify-content: center;
 }
 
 .header__nav-list a{
