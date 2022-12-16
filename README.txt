@@ -85,7 +85,6 @@ Deadline: 21/12
   3.1 Criar
   3.2 Estilizar
   3.3 Confirmar responsividade
-  3.4 PÁGINA DE REPRODUÇÃO(mesmo layout)
 
 4.PÁGINA DE REPRODUÇÃO(preparar a base para o JS)
   4.1 Criar
