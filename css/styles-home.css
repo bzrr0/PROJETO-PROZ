@@ -18,7 +18,6 @@ main{
   display: flex;
   justify-content: center;
   width: 22rem;
-  border: 1px solid black;
   flex-wrap: wrap;
   gap: 2rem;
 }
