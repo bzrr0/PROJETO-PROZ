@@ -65,35 +65,37 @@ SPRINT 2
 
 SPRINT 3(em andamento)
 
-p/ dia 21
+Deadline: 21/12
 1.HOME
-- Melhorar body
-- Estilizar
-- Adicionar Botão "pesquisar"
-- Confirmar links: login e cadastro
-- Confirmar responsividade
-- Colocar titulos About e Contact em pt-br
-- Criar About genérico
-- Criar Contact Genérico
+  1.1 Melhorar body
+  1.2 Estilizar
+  1.3 Adicionar Botão "pesquisar"
+  1.4 Confirmar links: login e cadastro
+  1.5 Confirmar responsividade
+  1.6 Colocar titulos About e Contact em pt-br
+  1.7 Criar About e Contact genéricos(optativo)
 
 2.PERFIL/CONFIGURAÇÕES
-- Estilizar body
-- Criar botão "Editar perfil"
-- Confirmar responsividade
-- Criar menus genéricos: Redes Sociais, Sua Evolução, Amigos
+  2.1 Estilizar body
+  2.2 Criar botão "Editar perfil"
+  2.3 Confirmar responsividade
+  2.4 Criar menus genéricos: Redes Sociais, Sua Evolução, Amigos(optativo)
 
-3.PÁGINA DE BUSCA
-- Criar
-- Estilizar
-- Confirmar responsividade
+3.PÁGINA DE BUSCA(preparar a base para o JS)
+  3.1 Criar
+  3.2 Estilizar
+  3.3 Confirmar responsividade
+  3.4 PÁGINA DE REPRODUÇÃO(mesmo layout)
 
-4.PÁGINA DE REPRODUÇÃO
-- Criar
-- Estilizar
-- Confirmar responsividade
+4.PÁGINA DE REPRODUÇÃO(preparar a base para o JS)
+  4.1 Criar
+  4.2 Estilizar
+  4.3 Confirmar responsividade
 
-5.OUTRAS(Login, Cadastro, Recuperar senha)
-- Atualizar 
+5.OUTRAS(Login, Cadastro e demais dados complementares)
+  5.1 Atualizar layout para coincidir às padronizações abaixo
+  5.2 Atualizar background
+  5.3 Incluir responsividade e organização dos blocos
 
 PADRONIZAÇÕES:
 - estilização de header-footer;
