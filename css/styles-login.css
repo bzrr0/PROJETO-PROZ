@@ -1,35 +1,36 @@
-
 .opcoes{
     background-color: #D7FFED;
     position: absolute;
-    top: 30rem;
-    left: 40rem;
-    transform: translate(-50%, -50%);
-    padding: 6.18em;
-    border-radius: 1.618em;
-    color: #000000;
+    top: 50%;
+    left: 40%;
+    transform: translate(-25%, -50%);
+    padding: 6.18rem;
+    border-radius: 1.618rem;
+    color: #0072ED;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-grow: 1; 
 }
 input {
     padding: 15px;
     border: none;
     outline: none;
     font-size: 15px;
-    width: 30rem;
+    width: 20rem;
     height: 2rem;
+    border-radius: 1.618rem;
+    display: flex;
 }
 button{
+    outline: none;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1.618rem;
     background: #D7FFED;
     transition: 0.1s ease-in-out;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     padding: 15px;
     font-size: 15px;
+    color: black;    
 }
 button:hover{
     background: #0072ED;
