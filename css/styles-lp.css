@@ -5,6 +5,7 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 section{
     position: relative;
     width: 100%;
@@ -32,7 +33,7 @@ section{
     display: inline-block;
     width: 64px;
     height: 40px;
-    border-radius: 25%;
+    border-radius: 1.61em;
     background: #D7FFED;
     margin-left: 45px;
     display: flex;
@@ -137,7 +138,7 @@ header .navegation li a{
     display: inline-block;
     width: 250px;
     height: 170px;
-    border-radius: 15%;
+    border-radius: 1.61em;
     background: #D7FFED;
     margin-left: 35px;
     display: flex;
@@ -167,13 +168,13 @@ header .navegation li a{
 input {
     width: 25rem;
     height: 2rem;
-    border-radius: 15px;
+    border-radius: 1.61em;
 }
 button{
     width: 5rem;
     height: 2rem;
     margin: 0rem;
-    border-radius: 15px;
+    border-radius: 1.61em;
     background: #D7FFED;
     transition: 0.1s ease-in-out;
 }

@@ -1,0 +1,19 @@
+/* Default styles for all screen sizes */
+.COMMAND {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  /* Styles for screens that are 600px or wider */
+  @media (min-width: 600px) {
+    .COMMAND {
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+  }
+  
+  /* Styles for screens that are 900px or wider */
+  @media (min-width: 900px) {
+    .COMMAND {
+      grid-template-columns: 1fr 3fr 1fr;
+    }
+  }
