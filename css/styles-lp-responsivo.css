@@ -1,0 +1,11 @@
+@media screen and (max-width: 380px){
+    header{
+        flex-direction: column;
+        display: block;
+        justify-content: center;
+
+
+    }
+    
+}
+   

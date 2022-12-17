@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,39 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles-lp.css">
-    <link rel="stylesheet" href="./css/styles-responsivo.css">
+    <link rel="stylesheet" href="./css/styles-lp-responsivo.css">
     <title>Codemy Landing Page</title>
 </head>
-<body>
-    <section>       
-        <div class="circle"></div>
-        <header>
-            <ul class="log">
-                <li><a href="home.html"><img src="./img/icone-projeto.png" alt="logo" class="logo"></a></li>
-            </ul>
-            <div>
-                <input type="text" placeholder="Pesquise por uma Linguagem ou Tecnologia" />
-                <button> Buscar </button>
-            </div>
-            <nav class="navegation">
-                <ul class="nav">
-                    <li><a href="./cadastro.html">Cadastro</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                    <li><a href="#">Suporte</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="container">
-            <div class="text">
-                <h2>SEU FUTURO COMEÇA NA <br><span>CODEMY</span></h2>
-            </div>
+<body>     
+    <header>
+        <div class="log">
+            <a href="home.html"><img src="./img/icone-projeto.png" alt="logo" width="150px" class="logo"></a>
         </div>
-        <ul class="icons">
-            <li><a href="#"><img id="f" src="./img/frontend.png" alt="icons">Frontend</a></li>
-            <li><a href="#"><img id="b" src="./img/backend icon.png" alt="icons">Backend</a></li>
-            <li><a href="#"><img id="ml" src="./img/machine-learning.png" alt="icons">Machine Learning</a></li>
-            <li><a href="#"><img id="cc" src="./img/cloud-computing.png" alt="icons">Cloud Computing</a></li>
+        <form id="formulario">
+            <button> Buscar </button>
+            <input type="text" placeholder="Pesquise por uma Linguagem ou Tecnologia" />
+        </form>
+        <ul class="nav">
+            <li><a href="./cadastro.html">Cadastro</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="#">Suporte</a></li>
         </ul>
-    </section>
+    </header>
+    <main class="conteudo">
+        <div class="container01">
+            <div class="text">
+               <h2>SEU FUTURO COMEÇA NA <br><span>CODEMY</span></h2>
+             </div>
+        </div>
+        <div>
+            <ul class="icons">
+                <li><a href="#"><img id="f" src="./img/frontend.png" alt="icons">Frontend</a></li>
+                <li><a href="#"><img id="b" src="./img/backend icon.png" alt="icons">Backend</a></li>
+                <li><a href="#"><img id="ml" src="./img/machine-learning.png" alt="icons">Machine Learning</a></li>
+                <li><a href="#"><img id="cc" src="./img/cloud-computing.png" alt="icons">Cloud Computing</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <samp>coporyte</samp>
+    </footer>
 </body>
 </html>
