@@ -2,10 +2,6 @@
   text-decoration: none;
 }
 
-main{
-    height: 100vh;
-}
-
 .container__main{
     display: flex;
     gap: 2.5rem;
