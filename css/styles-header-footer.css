@@ -91,7 +91,6 @@ header{
 footer{
     background-color: #D7FFED;
     padding: 0.2rem;
-    border-top: 1px solid #333;
     bottom: 0;
     left: 0;
     height: 40px;
@@ -100,12 +99,14 @@ footer{
     height: 4rem;
 }
 
-footer span{
-    margin: auto;
-    border: 1px solid black;
+#footer__inc{
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
 }
 
 .footer__nav-list{
+    margin-top: .5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -115,4 +116,8 @@ footer span{
 .footer__nav-list a{
     text-decoration: none;
     margin-left: 1rem;
+}
+
+.header__nav-list a:hover{
+    opacity: 80%;
 }

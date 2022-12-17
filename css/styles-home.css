@@ -2,6 +2,11 @@
   text-decoration: none;
 }
 
+#title{
+  display: flex;
+  justify-content: center;
+}
+
 .container__main{
     display: flex;
     gap: 2.5rem;
@@ -20,7 +25,7 @@
 
 .container__content img {
   width: 9rem;
-  height: auto;
+  height: 9rem;
   border: 2px solid black;
   border-radius: 10%;
 }
@@ -38,6 +43,13 @@
   text-align: center;
   text-decoration: none;
   color: black;
+}
+
+.content_card a:hover{
+  transform: translateY(-6px);
+  transition: 0.2s;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  border-color: #80bdff;
 }
 
 .content__description{
