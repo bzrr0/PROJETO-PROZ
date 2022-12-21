@@ -5,3 +5,7 @@ video {
     display: block;
     margin: 0 auto;
   }
+  .description{
+    text-align: center;
+    
+  }
