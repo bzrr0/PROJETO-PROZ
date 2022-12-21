@@ -1,0 +1,75 @@
+body{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .menuOculto{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #D7FFED;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .menuOculto a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+  .menuOculto a:hover{
+    color: #0072ED;
+
+  }
+  .menuConteiner{
+    width: 0;
+    padding: 15px 0px;
+    background-color: #D7FFED;
+  }
+  .menuConteiner li a{
+    padding: 12px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 0.5s;
+  }
+  .menuConteiner h2{
+    padding-left: 10px;
+  }
+  #pesquisa{
+    width: 200px;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  #menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 15px;
+  }
+  .borda{
+    border: 1px solid #000;
+  }
+  .btnFechar{
+    position:absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #principal{
+    padding: 16px;
+    transition: margin-left 0.5s;
+  }
+  @media screen and(max-height: 450px){
+    .menuOculto{padding-top: 15px;}
+    .menuOculto a{font-size: 18;}
+  }
