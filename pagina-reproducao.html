@@ -1,127 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Reprodução</title>
-    <link rel="stylesheet" href="./css/styles-pr.css">
-    <link rel="stylesheet" href="./css/styles-header-footer.css">
-    <link rel="stylesheet" href="./css/styles-searching.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles-pr.css" />
+    <link rel="stylesheet" href="./css/styles-header-footer.css" />
+    <link rel="stylesheet" href="./css/styles-searching.css" />
+  </head>
+  <body>
     <header>
-        <div class="container__header">
-          <div class="header__logo">
-            <div class="header__img">
-              <a href="./home.html"
-                ><img src="./img/icone-projeto-nobg3.png" alt="icone Codemy"
-              /></a>
-              <div class="name">
-                <span>Codemy</span>
-              </div>
+      <div class="container__header">
+        <div class="header__logo">
+          <div class="header__img">
+            <a href="./home.html"
+              ><img src="./img/icone-projeto-nobg3.png" alt="icone Codemy"
+            /></a>
+            <div class="name">
+              <span>Codemy</span>
             </div>
           </div>
-          <div class="header__nav-bar">
-            <nav>
-              <ul class="header__nav-list">
-                <li><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="./profile.html">Perfil</a></li>
-              </ul>
-            </nav>
-          </div>
         </div>
-      </header>
-      <main>
-        <aside id="menuOculto" class="menuOculto">
-          <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a>
-          <nav class="menuConteiner">
-            <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Pesquisa..." title="Digite uma opção de menu">
-            <ul id="menu">
-              <li><a href="#">HTML5</a></li>
-              <li><a href="#">CSS3</a></li>
-              <li><a href="#">JavaScript (ES6)</a></li>
-              <li><a href="#">Framework e Libraries</a></li>
-              <li><a href="#">Versionamento</a></li>
-              <li><a href="#">UX/UI (User Experience/User Interface)</a></li>
-              <li><a href="#">Debug</a></li>
-              <li><a href="#">Acessibilidade</a></li>
-              <li><a href="#">SEO (Search Engine Optimization)</a></li>
-              <li><a href="#">Responsividade e Cross Browser</a></li>
-              <li><a href="#">Testes</a></li>
-              <li><a href="#">Code Readability</a></li>
-              <li><a href="#">Refactoring</a></li>
-              <li><a href="#">Aprimore suas Soft Skills</a></li>
-              <li><a href="#">Comunidades de desenvolvimento e OpenSource</a></li>
-              <li><a href="#">Aprenda e utilize Metodologias Ágeis</a></li>
-              <li><a href="#">Escreva sobre o que aprendeu</a></li>
-              <li><a href="#">Saiba como o Back-end funciona</a></li>
-              <li><a href="#">Lifelong Learning</a></li>
-              <li><a href="#">Faça um portfólio ou blog</a></li>
-              <li><a href="#">Estrutura e Modelagem de Dados</a></li>
-              <li><a href="#">Comunicação Efetiva</a></li>
-              <li><a href="#">Conceitos de UX e UI</a></li>
-              <li><a href="#">Segurança</a></li>
-              <li><a href="#">Estruturação de Projetos</a></li>
-              <li><a href="#">Arquitetura de Software</a></li>
-              <li><a href="#">Otimização de Código</a></li>
-              <li><a href="#">Tecnologias da Web</a></li>
-              <li><a href="#">Ferramentas de Controle de Versão</a></li>
-              <li><a href="#">Entenda Sobre Negócios</a></li>
-              <li><a href="#">Introdução a DevOps</a></li>
-              <li><a href="#">Docker</a></li>
-              <li><a href="#">Kubernetes</a></li>
-              <li><a href="#">OpenShift</a></li>
-              <li><a href="#">Jenkins</a></li>
-              <li><a href="#">Chef</a></li>
-              <li><a href="#">Terraform</a></li>
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">GitLab</a></li>
-              <li><a href="#">Jira</a></li>
-              <li><a href="#">Pré-processamento de Dados</a></li>
-              <li><a href="#">Regressão</a></li>
-              <li><a href="#">Classificação</a></li>
-              <li><a href="#">Clustering</a></li>
-              <li><a href="#">Aprendizagem Conjunta</a></li>
-              <li><a href="#">Análise de Séries Temporais</a></li>
-            </ul>
-          </nav>
-        </aside>
-        <section id="principal">
-          <span style="font-size: 30px;cursor:pointer" onclick="abrirNav()">&#9776;</span>
-          <p>Buscar</p>
-          <div class="description">
-                    <!-- Vídeo com controles de reprodução -->
-            <video src="video-exemplo.mp4" autoplay controls></video>
-            <h1>TITULO DO VIDEO - <span>Módulo e Curso correspondentes</span></h1>
-            <p>Uma breve descrição do conteúdo do vídeo.</p>
-            <a href="#">Conteúdo Complementar</a> 
-            <a href="#">Compartilhar</a>
-            <a href="#">Favoritar</a> 
-          </div>  
-        </section>
-        <script type="text/javascript" src="script.js"></script>      
-      </main>
-    <footer>
-        <div class="footer__nav-bar">
-          <span>© 2022 Codemy, Inc.</span>
+        <div class="header__nav-bar">
           <nav>
-            <ul class="footer__nav-list">
-              <li><a href="#" target="_blank">About</a></li>
-              <li><a href="#" target="_blank">Contact</a></li>
-              <li><a href="#" target="_blank">Suporte</a></li>
-              <li>
-                <a href="./termos-de-uso.html" target="_blank">Termos de Uso</a>
-              </li>
-              <li>
-                <a href="./politica-de-privacidade.html" target="_blank"
-                  >Política de Privacidade</a
-                >
-              </li>
+            <ul class="header__nav-list">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="cadastro.html">Cadastro</a></li>
+              <li><a href="./profile.html">Perfil</a></li>
             </ul>
           </nav>
         </div>
-      </footer>
-</body>
+      </div>
+    </header>
+    <main>
+      <aside id="menuOculto" class="menuOculto">
+        <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()"
+          >&times;</a
+        >
+        <nav class="menuConteiner">
+          <input
+            type="text"
+            id="pesquisa"
+            onkeyup="pesquisar()"
+            placeholder="Pesquisa..."
+            title="Digite uma opção de menu"
+          />
+          <ul id="menu">
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS3</a></li>
+            <li><a href="#">JavaScript (ES6)</a></li>
+            <li><a href="#">Framework e Libraries</a></li>
+            <li><a href="#">Versionamento</a></li>
+            <li><a href="#">UX/UI (User Experience/User Interface)</a></li>
+            <li><a href="#">Debug</a></li>
+            <li><a href="#">Acessibilidade</a></li>
+            <li><a href="#">SEO (Search Engine Optimization)</a></li>
+            <li><a href="#">Responsividade e Cross Browser</a></li>
+            <li><a href="#">Testes</a></li>
+            <li><a href="#">Code Readability</a></li>
+            <li><a href="#">Refactoring</a></li>
+            <li><a href="#">Aprimore suas Soft Skills</a></li>
+            <li><a href="#">Comunidades de desenvolvimento e OpenSource</a></li>
+            <li><a href="#">Aprenda e utilize Metodologias Ágeis</a></li>
+            <li><a href="#">Escreva sobre o que aprendeu</a></li>
+            <li><a href="#">Saiba como o Back-end funciona</a></li>
+            <li><a href="#">Lifelong Learning</a></li>
+            <li><a href="#">Faça um portfólio ou blog</a></li>
+            <li><a href="#">Estrutura e Modelagem de Dados</a></li>
+            <li><a href="#">Comunicação Efetiva</a></li>
+            <li><a href="#">Conceitos de UX e UI</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Estruturação de Projetos</a></li>
+            <li><a href="#">Arquitetura de Software</a></li>
+            <li><a href="#">Otimização de Código</a></li>
+            <li><a href="#">Tecnologias da Web</a></li>
+            <li><a href="#">Ferramentas de Controle de Versão</a></li>
+            <li><a href="#">Entenda Sobre Negócios</a></li>
+            <li><a href="#">Introdução a DevOps</a></li>
+            <li><a href="#">Docker</a></li>
+            <li><a href="#">Kubernetes</a></li>
+            <li><a href="#">OpenShift</a></li>
+            <li><a href="#">Jenkins</a></li>
+            <li><a href="#">Chef</a></li>
+            <li><a href="#">Terraform</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">GitLab</a></li>
+            <li><a href="#">Jira</a></li>
+            <li><a href="#">Pré-processamento de Dados</a></li>
+            <li><a href="#">Regressão</a></li>
+            <li><a href="#">Classificação</a></li>
+            <li><a href="#">Clustering</a></li>
+            <li><a href="#">Aprendizagem Conjunta</a></li>
+            <li><a href="#">Análise de Séries Temporais</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section id="principal">
+        <span style="font-size: 30px; cursor: pointer" onclick="abrirNav()"
+          >&#9776;</span
+        >
+        <p>Buscar</p>
+        <div class="description">
+          <!-- Vídeo com controles de reprodução -->
+          <video src="video-exemplo.mp4" autoplay controls></video>
+          <h1>TITULO DO VIDEO - <span>Módulo e Curso correspondentes</span></h1>
+          <p>Uma breve descrição do conteúdo do vídeo.</p>
+          <a href="#">Conteúdo Complementar</a>
+          <a href="#">Compartilhar</a>
+          <a href="#">Favoritar</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__nav-bar">
+        <span>© 2022 Codemy, Inc.</span>
+        <nav>
+          <ul class="footer__nav-list">
+            <li><a href="#" target="_blank">About</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+            <li><a href="#" target="_blank">Suporte</a></li>
+            <li>
+              <a href="./termos-de-uso.html" target="_blank">Termos de Uso</a>
+            </li>
+            <li>
+              <a href="./politica-de-privacidade.html" target="_blank"
+                >Política de Privacidade</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
 </html>
