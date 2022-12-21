@@ -55,7 +55,7 @@ body{
     margin-left: 15px;
   }
   .borda{
-    border: 1px solid #000;
+    border: 1px solid white;
   }
   .btnFechar{
     position:absolute;
@@ -63,10 +63,14 @@ body{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    align-items: initial;
   }
   #principal{
-    padding: 16px;
+    padding: 10px;
     transition: margin-left 0.5s;
+  }
+  #principal span{
+    align-items: initial;
   }
   @media screen and(max-height: 450px){
     .menuOculto{padding-top: 15px;}
