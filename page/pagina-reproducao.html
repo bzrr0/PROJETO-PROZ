@@ -4,31 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles-header-footer.css" />
-    <link rel="stylesheet" href="./css/styles-searching.css" />
-    <title>TESTE DE CODIGO PARA BUSCA EM NAV</title>
+    <title>Página de Reprodução</title>
+    <link rel="stylesheet" href="../css/styles-pr.css" />
+    <link rel="stylesheet" href="../css/styles-header-footer.css" />
+    <link rel="stylesheet" href="../css/styles-searching.css" />
   </head>
   <body>
     <header>
       <div class="container__header">
         <div class="header__logo">
           <div class="header__img">
-            <a href="./home.html"
-              ><img src="./img/icone-projeto-nobg3.png" alt="icone Codemy"
+            <a href="../home.html"
+              ><img src="../img/icone-projeto-nobg3.png" alt="icone Codemy"
             /></a>
             <div class="name">
               <span>Codemy</span>
             </div>
           </div>
         </div>
-        <div class="header__search">
-          <input type="text" placeholder="Faça sua pesquisa.." />
-        </div>
         <div class="header__nav-bar">
           <nav>
             <ul class="header__nav-list">
-              <li><a href="login.html">Login</a></li>
-              <li><a href="cadastro.html">Cadastro</a></li>
+              <li><a href="./login.html">Login</a></li>
+              <li><a href="./cadastro.html">Cadastro</a></li>
               <li><a href="./profile.html">Perfil</a></li>
             </ul>
           </nav>
@@ -37,9 +35,17 @@
     </header>
     <main>
       <aside id="menuOculto" class="menuOculto">
-        <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a>
+        <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()"
+          >&times;</a
+        >
         <nav class="menuConteiner">
-          <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Pesquisa..." title="Digite uma opção de menu">
+          <input
+            type="text"
+            id="pesquisa"
+            onkeyup="pesquisar()"
+            placeholder="Pesquisa..."
+            title="Digite uma opção de menu"
+          />
           <ul id="menu">
             <li><a href="#">HTML5</a></li>
             <li><a href="#">CSS3</a></li>
@@ -91,28 +97,39 @@
         </nav>
       </aside>
       <section id="principal">
-        <span style="font-size: 30px;cursor:pointer" onclick="abrirNav()">&#9776;</span>
+        <span style="font-size: 30px; cursor: pointer" onclick="abrirNav()"
+          >&#9776;</span
+        >
         <p>Buscar</p>
+        <div class="description">
+          <!-- Vídeo com controles de reprodução -->
+          <video src="video-exemplo.mp4" autoplay controls></video>
+          <h1>TITULO DO VIDEO - <span>Módulo e Curso correspondentes</span></h1>
+          <p>Uma breve descrição do conteúdo do vídeo.</p>
+          <a href="#">Conteúdo Complementar</a>
+          <a href="#">Compartilhar</a>
+          <a href="#">Favoritar</a>
+        </div>
       </section>
-      <script type="text/javascript" src="script.js"></script>
     </main>
     <footer>
-        <nav>
-          <ul class="footer__nav-list">
-            <li><a href="#" target="_blank">Sobre Nós</a></li>
-            <li><a href="#" target="_blank">Contato</a></li>
-            <li><a href="#" target="_blank">Suporte</a></li>
-            <li>
-              <a href="./termos-de-uso.html" target="_blank">Termos de Uso</a>
-            </li>
-            <li>
-              <a href="./politica-de-privacidade.html" target="_blank"
-                >Política de Privacidade</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <div id="footer__inc">© 2022 Codemy, Inc.</div>
-    </footer>
+      <nav>
+        <ul class="footer__nav-list">
+          <li><a href="./page/under-construction.html" target="_blank">Sobre Nós</a></li>
+          <li><a href="./page/under-construction.html" target="_blank">Contato</a></li>
+          <li><a href="./page/under-construction.html" target="_blank">Suporte</a></li>
+          <li>
+            <a href="./page/termos-de-uso.html" target="_blank">Termos de Uso</a>
+          </li>
+          <li>
+            <a href="./page/politica-de-privacidade.html" target="_blank"
+              >Política de Privacidade</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div id="footer__inc">© 2022 Codemy, Inc.</div>
+  </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
   </body>
 </html>
