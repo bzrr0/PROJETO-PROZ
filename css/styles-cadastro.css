@@ -49,3 +49,21 @@ p{
    align-items: center; 
    text-align: center;
 }
+
+.apoio-text{
+    display: none;
+    font-size: .9rem;
+    color: #ff0000;
+}
+
+input.error {
+  border: solid 2px #992020;
+}
+
+input.correct {
+  border: solid 2px #206620;
+}
+
+.visible {
+  display: block;
+}

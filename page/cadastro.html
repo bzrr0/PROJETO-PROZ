@@ -1,59 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles-cadastro.css">
-    <link rel="stylesheet" href="../css/styles-header-footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles-cadastro.css" />
+    <link rel="stylesheet" href="../css/styles-header-footer.css" />
+    <script src="../js/DOM.js" defer></script>
     <title>Cadastro</title>
-</head>
-<body>
-  <header>
-    <div class="container__header">
-      <div class="header__logo">
-        <div class="header__img">
-          <a href="../home.html"
-            ><img src="../img/icone-projeto-nobg3.png" alt="icone Codemy"
-          /></a>
-          <div class="name">
-            <span>Codemy</span>
+  </head>
+  <body>
+    <header>
+      <div class="container__header">
+        <div class="header__logo">
+          <div class="header__img">
+            <a href="../home.html"
+              ><img src="../img/icone-projeto-nobg3.png" alt="icone Codemy"
+            /></a>
+            <div class="name">
+              <span>Codemy</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="header__search">
-        <input type="text" placeholder="Faça sua pesquisa.." />
-      </div>
-      <div class="header__nav-bar">
-        <nav>
-          <ul class="header__nav-list">
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./cadastro.html">Cadastro</a></li>
-            <li><a href="./profile.html">Perfil</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-      <main>
-        <div class="opcoes">
-            <h1>Crie seu perfil</h1>
-            <input type="number" placeholder="Idade" min="0" max="110">
-            <br><br>
-            <input type="text" placeholder="Nome completo">
-            <br><br>
-            <input type="text" placeholder="E-mail">
-            <br><br>
-            <input type="password" placeholder="Senha" required pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?!.[@$!%?&])[A-Za-z\d@$!%?&]{6,8}$" title="Ronaldo">
-            <br><br>
-            <button>CRIAR CONTA</button>
-            <br>
-            <p>ou</p>
-            <br>
-            <button id="google-icon"><img src="../img/icone-google-cadastro.png" alt=""><span> CRIAR CONTA</span></button>
-            <br><br>
-            <button id="facebook-icon"><img src="../img/icone-facebook-cadastro.png" alt=""><span> CRIAR CONTA</span></button>
+        <div class="header__search">
+          <input type="text" placeholder="Faça sua pesquisa.." />
         </div>
-      </main>    
-</body>
+        <div class="header__nav-bar">
+          <nav>
+            <ul class="header__nav-list">
+              <li><a href="./login.html">Login</a></li>
+              <li><a href="./cadastro.html">Cadastro</a></li>
+              <li><a href="./profile.html">Perfil</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="opcoes">
+        <h1>Crie seu perfil</h1>
+        <input
+          type="number"
+          placeholder="Idade"
+          min="0"
+          max="110"
+          id="age"
+          required
+        />
+        <p class="apoio-text" id="age-text">Mensagem de apoio</p>
+        <br /><br />
+        <input type="text" placeholder="Nome completo" id="name" required />
+        <p class="apoio-text" id="name-text">Mensagem de apoio</p>
+        <br /><br />
+        <input type="text" placeholder="Username" id="username" required />
+        <p class="apoio-text" id="username-text">Mensagem de apoio</p>
+        <br /><br />
+        <input type="text" placeholder="E-mail" id="email" required />
+        <p class="apoio-text" id="email-text">Mensagem de apoio</p>
+        <br /><br />
+        <input
+          type="password"
+          placeholder="Senha"
+          required
+          pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?!.[@$!%?&])[A-Za-z\d@$!%?&]{6,8}$"
+          title="Ronaldo"
+          id="password"
+        />
+        <p class="apoio-text">Mensagem de apoio</p>
+        <br /><br />
+        <button>CRIAR CONTA</button>
+        <br />
+        <p>ou</p>
+        <br />
+        <button id="google-icon">
+          <img src="../img/icone-google-cadastro.png" alt="" /><span>
+            CRIAR CONTA</span
+          >
+        </button>
+        <br /><br />
+        <button id="facebook-icon">
+          <img src="../img/icone-facebook-cadastro.png" alt="" /><span>
+            CRIAR CONTA</span
+          >
+        </button>
+      </div>
+    </main>
+  </body>
 </html>
