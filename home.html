@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles-header-footer.css" />
     <link rel="stylesheet" href="./css/styles-home.css" />
+    <!-- JS -->
+    <script src="./js/HomeDOM.js" defer></script>
     <title>Codemy</title>
   </head>
   <body>
@@ -23,7 +25,7 @@
           </div>
         </div>
         <div class="header__search">
-          <input type="search" placeholder="Faça sua pesquisa.."/>
+          <input type="search" placeholder="Faça sua pesquisa.." />
         </div>
         <div class="header__nav-bar">
           <nav>
@@ -43,27 +45,19 @@
       <div class="container__main">
         <div class="container__content">
           <div class="content_card">
-            <a
-              href="./page/under-construction.html"
-            >
-              <img
-                src="./img/frontend.png"
-                alt="imagem front end"
-              />
+            <a id="front-end-content">
+              <img src="./img/frontend.png" alt="imagem front end" />
               <div>FRONT END</div></a
             >
           </div>
           <div class="content_card">
-            <a href="./page/under-construction.html">
-              <img
-                src="./img/backend icon.png"
-                alt="imagem back end"
-              />
+            <a id="back-end-content">
+              <img src="./img/backend icon.png" alt="imagem back end" />
               <div>BACK END</div></a
             >
           </div>
           <div class="content_card">
-            <a href="./page/under-construction.html">
+            <a id="cloud-content">
               <img
                 src="./img/cloud-computing.png"
                 alt="imagem cloud computing"
@@ -72,7 +66,7 @@
             >
           </div>
           <div class="content_card">
-            <a href="./page/under-construction.html">
+            <a id="machine-content">
               <img
                 src="./img/machine-learning.png"
                 alt="imagem machine learning"
@@ -82,34 +76,41 @@
           </div>
         </div>
         <div class="content__description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-            adipisci ex hic rerum labore fuga cum neque at voluptas, vitae
-            voluptatum ipsum tenetur ipsam consequatur aliquid non deserunt eos
-            aperiam dignissimos accusamus ratione nostrum cumque id a. Quam in
-            consequuntur dolorum dolore, eveniet, repellendus necessitatibus
-            esse saepe harum pariatur commodi!
+          <p id="content-p">
+            Bem vindo a Codemy! Seu site de cursos sobre tecnologia! Nosso site
+            possui cursos de formacoes totalmente atualizados com o mercado de
+            trabalho.
           </p>
         </div>
       </div>
     </main>
     <footer>
-        <nav>
-          <ul class="footer__nav-list">
-            <li><a href="./page/under-construction.html" target="_blank">Sobre Nós</a></li>
-            <li><a href="./page/under-construction.html" target="_blank">Contato</a></li>
-            <li><a href="./page/under-construction.html" target="_blank">Suporte</a></li>
-            <li>
-              <a href="./page/termos-de-uso.html" target="_blank">Termos de Uso</a>
-            </li>
-            <li>
-              <a href="./page/politica-de-privacidade.html" target="_blank"
-                >Política de Privacidade</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <div id="footer__inc">© 2022 Codemy, Inc.</div>
+      <nav>
+        <ul class="footer__nav-list">
+          <li>
+            <a href="./page/under-construction.html" target="_blank"
+              >Sobre Nós</a
+            >
+          </li>
+          <li>
+            <a href="./page/under-construction.html" target="_blank">Contato</a>
+          </li>
+          <li>
+            <a href="./page/under-construction.html" target="_blank">Suporte</a>
+          </li>
+          <li>
+            <a href="./page/termos-de-uso.html" target="_blank"
+              >Termos de Uso</a
+            >
+          </li>
+          <li>
+            <a href="./page/politica-de-privacidade.html" target="_blank"
+              >Política de Privacidade</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div id="footer__inc">© 2022 Codemy, Inc.</div>
     </footer>
   </body>
 </html>

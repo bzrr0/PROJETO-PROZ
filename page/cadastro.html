@@ -38,51 +38,52 @@
     </header>
     <main>
       <div class="opcoes">
-        <h1>Crie seu perfil</h1>
-        <input
-          type="number"
-          placeholder="Idade"
-          min="0"
-          max="110"
-          id="age"
-          required
-        />
-        <p class="apoio-text" id="age-text">Mensagem de apoio</p>
-        <br /><br />
-        <input type="text" placeholder="Nome completo" id="name" required />
-        <p class="apoio-text" id="name-text">Mensagem de apoio</p>
-        <br /><br />
-        <input type="text" placeholder="Username" id="username" required />
-        <p class="apoio-text" id="username-text">Mensagem de apoio</p>
-        <br /><br />
-        <input type="text" placeholder="E-mail" id="email" required />
-        <p class="apoio-text" id="email-text">Mensagem de apoio</p>
-        <br /><br />
-        <input
-          type="password"
-          placeholder="Senha"
-          required
-          pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?!.[@$!%?&])[A-Za-z\d@$!%?&]{6,8}$"
-          title="Ronaldo"
-          id="password"
-        />
-        <p class="apoio-text">Mensagem de apoio</p>
-        <br /><br />
-        <button>CRIAR CONTA</button>
-        <br />
-        <p>ou</p>
-        <br />
-        <button id="google-icon">
-          <img src="../img/icone-google-cadastro.png" alt="" /><span>
-            CRIAR CONTA</span
-          >
-        </button>
-        <br /><br />
-        <button id="facebook-icon">
-          <img src="../img/icone-facebook-cadastro.png" alt="" /><span>
-            CRIAR CONTA</span
-          >
-        </button>
+        <form action="">
+          <h1>Crie seu perfil</h1>
+          <input
+            type="number"
+            placeholder="Idade"
+            min="0"
+            max="110"
+            id="age"
+            required
+          />
+          <p class="apoio-text" id="age-text">Mensagem de apoio</p>
+          <br /><br />
+          <input type="text" placeholder="Nome completo" id="name" required />
+          <p class="apoio-text" id="name-text">Mensagem de apoio</p>
+          <br /><br />
+          <input type="text" placeholder="Username" id="username" required />
+          <p class="apoio-text" id="username-text">Mensagem de apoio</p>
+          <br /><br />
+          <input type="text" placeholder="E-mail" id="email" required />
+          <p class="apoio-text" id="email-text">Mensagem de apoio</p>
+          <br /><br />
+          <input
+            type="password"
+            placeholder="Senha"
+            required
+            pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?!.[@$!%?&])[A-Za-z\d@$!%?&]{6,8}$"
+            id="password"
+          />
+          <p class="apoio-text" id="password-text">Mensagem de apoio</p>
+          <br /><br />
+          <button type="submit">CRIAR CONTA</button>
+          <br />
+          <p>ou</p>
+          <br />
+          <button id="google-icon">
+            <img src="../img/icone-google-cadastro.png" alt="" /><span>
+              CRIAR CONTA</span
+            >
+          </button>
+          <br /><br />
+          <button id="facebook-icon">
+            <img src="../img/icone-facebook-cadastro.png" alt="" /><span>
+              CRIAR CONTA</span
+            >
+          </button>
+        </form>
       </div>
     </main>
   </body>
