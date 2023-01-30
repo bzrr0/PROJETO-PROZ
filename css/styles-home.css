@@ -56,3 +56,25 @@
     border: 1px solid black;
     width: 60rem;
 }
+
+.content-hidden {
+  display: none;
+  border: black solid 1px;
+  height: 10rem;
+  margin-top: 2rem;
+  background-color: #80bdff;
+}
+
+.content-hidden ul{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.content-hidden li{
+  font-size: 2rem;
+  font-weight: bold;
+}
