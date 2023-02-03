@@ -2,6 +2,12 @@
   text-decoration: none;
 }
 
+p {
+  font-size: 1.5rem;
+  margin: 2rem 4rem 2rem 4rem;
+  text-align: center;
+}
+
 #title{
   display: flex;
   justify-content: center;
@@ -54,6 +60,7 @@
 
 .content__description{
     border: 1px solid black;
+    border-radius: 2.25rem;
     width: 60rem;
 }
 

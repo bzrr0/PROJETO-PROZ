@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles-login.css">
-    <link rel="stylesheet" href="../css/styles-header-footer.css">
-    <link rel="stylesheet" href="../css/styles-responsivo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles-login.css" />
+    <link rel="stylesheet" href="../css/styles-header-footer.css" />
+    <link rel="stylesheet" href="../css/styles-responsivo.css" />
+    <!-- JS -->
+    <script src="../js/LoginDOM.js" defer></script>
     <title>Login</title>
-</head>
-<body>
-  <header>
-    <div class="container__header">
-      <div class="header__logo">
-        <div class="header__img">
-          <a href="../home.html"
-            ><img src="../img/icone-projeto-nobg3.png" alt="icone Codemy"
-          /></a>
-          <div class="name">
-            <span>Codemy</span>
+  </head>
+  <body>
+    <header>
+      <div class="container__header">
+        <div class="header__logo">
+          <div class="header__img">
+            <a href="../home.html"
+              ><img src="../img/icone-projeto-nobg3.png" alt="icone Codemy"
+            /></a>
+            <div class="name">
+              <span>Codemy</span>
+            </div>
           </div>
         </div>
+        <div class="header__search">
+          <input type="text" placeholder="Faça sua pesquisa.." />
+        </div>
+        <div class="header__nav-bar">
+          <nav>
+            <ul class="header__nav-list">
+              <li><a href="./login.html">Login</a></li>
+              <li><a href="./cadastro.html">Cadastro</a></li>
+              <li><a href="./profile.html">Perfil</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="header__search">
-        <input type="text" placeholder="Faça sua pesquisa.." />
-      </div>
-      <div class="header__nav-bar">
-        <nav>
-          <ul class="header__nav-list">
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./cadastro.html">Cadastro</a></li>
-            <li><a href="./profile.html">Perfil</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+    </header>
     <div class="opcoes">
-        <h1><span>Login</span></h1>
-        <input type="text" placeholder="E-mail">
-        <br><br>
-        <input type="password" placeholder="Senha">
-        <br><br><br>
+      <form action="">
+        <h1>Login</h1>
+        <input type="text" id="email" placeholder="E-mail" />
+        <p class="apoio-text" id="email-text">Mensagem de apoio</p>
+        <br /><br />
+        <input type="password" id="password" placeholder="Senha" />
+        <p class="apoio-text" id="password-text">Mensagem de apoio</p>
+        <br /><br /><br />
         <a href="forgot-psswd.html">Esqueceu sua senha?</a>
-        <br><br>
-        <button>ENTRAR</button>
+        <br /><br />
+        <button id="btn-submit">ENTRAR</button>
+      </form>
     </div>
-</body>
+  </body>
 </html>
