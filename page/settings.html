@@ -10,7 +10,8 @@
     <script
       src="https://kit.fontawesome.com/ce9514e2b2.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> 
+    <script src="../js/settingsDOM.js" defer></script>
     <title>Configurações</title>
   </head>
   <body>
@@ -82,23 +83,26 @@
           </div>
           <div class="settigs__main-bar">
             <section>
-              <form action="">
+              <form id="form">
                 <div class="main-bar__name">
                   <h2>Configurações Básicas</h2>
                 </div>
                 <div class="main-bar__form">
-                  <label for="name">Nome completo</label>
-                  <input type="text" name="" id="name" />
+                  <label for="name">*Nome completo</label>
+                  <input type="text" name="" id="name"/>
+                  <p class="apoio-text" id="helperNome"></p>
                 </div>
                 <div class="main-bar__form">
-                  <label for="password">Senha</label>
-                  <input type="password" name="" id="password" />
+                  <label for="password">*Senha</label>
+                  <input type="password" name="" id="password"/>
                   <a href="#">Alterar senha</a>
+                  <p class="apoio-text" id="helperSenha"></p>
                 </div>
                 <div class="main-bar__form">
-                  <label for="email">E-mail</label>
-                  <input type="email" name="" id="email" />
+                  <label for="email">*E-mail</label>
+                  <input type="email" name="" id="email"/>
                   <a href="#">Alterar e-mail</a>
+                  <p class="apoio-text" id="helperEmail"></p>                
                 </div>
                 <div class="main-bar__name">
                   <h2>Configurações do Sistema</h2>
@@ -127,7 +131,7 @@
                   </label>
                 </div>
                 <div class="main-bar__button">
-                  <button type="submit" name="myButton">Salvar</button>
+                  <button type="submit" name="myButton" id="button">Salvar</button>
                 </div>
               </form>
             </section>

@@ -32,7 +32,17 @@ form {
   text-decoration: none;
   color: black;
 }
+/* Menu com animação*/
+.settigs__sidebar a:hover{
+  font-size: 35px;
+  padding-left: 30px;
+  border-left: 4px solid #0072ed;
+  color: b#117cef;
+  transition: .5s;
+}
 
+/* Menu lateral*/
+  
 .settigs__sidebar li {
   margin-bottom: 2rem;
 }
@@ -54,6 +64,11 @@ form {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.apoio-text{
+  font-size: 3px;
+  color: red;
+  display: none;
+}
 
 .main-bar__form-checkbox {
   display: inline-block;
@@ -71,11 +86,14 @@ form {
 .main-bar__form-checkbox p {
   display: inline-block;
 }
-
+/* input */
 .main-bar__form input,
 select {
   width: 25rem;
   height: 2rem;
+  border: solid 2px rgb(23, 22, 22);
+  border-radius: 7px;
+  
 }
 
 .switch {
@@ -91,6 +109,7 @@ select {
 .switch input[type="checkbox"] {
   position: absolute;
   opacity: 0;
+
 }
 
 /* Create a custom switch */
@@ -102,7 +121,7 @@ select {
   right: 0;
   bottom: 0;
   border-radius: 34px;
-  border: 1px solid #daa2e6;
+  border: 1px solid #121212;
   transition: 0.2s;
 }
 
@@ -136,6 +155,8 @@ select {
 .switch input[type="checkbox"]:focus + .slider {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   border-color: #80bdff;
+ 
+
 }
 
 .main-bar__button{
@@ -151,4 +172,23 @@ select {
   border-radius: .3rem;
   cursor: pointer;
 }
+/*istilização dinamica*/
+
+.inputForm_erro {
+  width: 25rem;
+  height: 2rem;
+  border: solid 5px rgb(148, 9, 9);
+  border-radius: 7px;
+  background-color: #ffcccc;
+  color: #060505;
+}
+
+.inputForm_correcto {
+  width: 25rem;
+  height: 2rem;
+  border: solid 2px rgb(103, 141, 100);
+  border-radius: 7px;
+  background-color: #c8f8c8;
+  color: #020202;
+  }
 
