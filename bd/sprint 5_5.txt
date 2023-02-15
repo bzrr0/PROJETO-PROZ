@@ -1,0 +1,83 @@
+-- CRIAÇÃO DE TABELAS
+
+CREATE TABLE seg_usuario (
+	ID serial PRIMARY KEY,
+  	login VARCHAR(64) NOT NULL,
+  	senha VARCHAR(11) NOT NULL,
+  	email VARCHAR(64) NOT NULL
+);
+
+CREATE TABLE usuario_aluno (
+	ID serial PRIMARY KEY,
+  	nome VARCHAR(64) NOT NULL,
+  	cpf INT NOT NULL,
+  	id_login INT NOT NULL,
+  CONSTRAINT fk_usuario FOREIGN KEY (id_login) REFERENCES seg_usuario(id)
+);
+
+CREATE TABLE curso (
+	cod_curso VARCHAR(5) PRIMARY KEY,
+  	nome VARCHAR(64) NOT NULL,
+  	status BOOLEAN NOT NULL
+);
+
+CREATE TABLE aluno (
+	matricula INT PRIMARY KEY,
+  	status BOOLEAN NOT NULL,
+  	id_usuario INT NOT NULL,
+  	id_curso VARCHAR(5) NOT NULL,
+  	nota INT,
+  	
+  CONSTRAINT fk_curso FOREIGN KEY (id_curso) REFERENCES curso(cod_curso),
+  CONSTRAINT fk_aluno_usuario FOREIGN KEY (id_usuario) REFERENCES usuario_aluno(ID)
+);
+
+-- INSERÇÃO DE DADOS
+
+INSERT INTO seg_usuario (login, senha, email) VALUES
+  ('jorge54', 'gaviao123', 'jorge64@email.com'),
+  ('antonio20', 'codorna41', 'antonio20@email.com'),
+  ('jean00', 'zebra00', 'jean@email.com'),
+  ('guilhermez', 'anta66', 'guilherme@email.com'),
+  ('felipelima', 'cachorro55', 'felipe@email.com');
+  
+  select * from seg_usuario;
+  
+  INSERT INTO usuario_aluno (nome, cpf, id_login) VALUES
+  ('Jorge Amado', 12345678, 1),
+  ('Antonio Bezerra', 36925814, 2),
+  ('Jean Albuquerque', 75342189, 3),
+  ('Guilherme Rocha', 95147863, 4),
+  ('Felipe Lima', 96854321, 5);
+  
+    select * from usuario_aluno;
+    
+INSERT INTO curso (cod_curso, nome, status) VALUES
+  ('CD01', 'Front End', 'true'),
+  ('CD02', 'Back End', 'true'),
+  ('CD03', 'Machine Learn', 'false'),
+  ('CD04', 'Cloud', 'true');
+  
+      select * from curso;
+      
+   INSERT INTO aluno (matricula, status, id_usuario, id_curso, nota) VALUES
+  (001, 'true', 1,'CD01',8),
+  (002, 'true', 2,'CD02',6),
+  (003, 'true', 3,'CD01',2),
+  (004, 'true', 4,'CD03',NULL),
+  (005, 'false', 5,'CD02', NULL);
+  
+        select * from aluno;
+    
+
+SELECT * 
+FROM curso
+RIGHT JOIN aluno on curso.cod_curso = aluno.id_curso;
+
+SELECT nome, seg_usuario.id as id_seg_usuario
+FROM usuario_aluno
+INNER JOIN seg_usuario on usuario_aluno.id_login = seg_usuario.id;
+
+SELECT nome, login, usuario_aluno.id AS id_usuario
+FROM usuario_aluno
+INNER JOIN seg_usuario on usuario_aluno.id_login = seg_usuario.id;
