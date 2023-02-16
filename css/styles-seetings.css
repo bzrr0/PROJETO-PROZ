@@ -32,14 +32,14 @@ form {
   text-decoration: none;
   color: black;
 }
-/* Menu com animação*/
+/* Menu com animação
 .settigs__sidebar a:hover{
   font-size: 35px;
   padding-left: 30px;
   border-left: 4px solid #0072ed;
   color: b#117cef;
   transition: .5s;
-}
+}*/
 
 /* Menu lateral*/
   
